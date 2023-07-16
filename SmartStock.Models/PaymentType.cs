@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SmartStock.Models
 {
-    internal class PaymentType
+    public class PaymentType
     {
+
     }
 }

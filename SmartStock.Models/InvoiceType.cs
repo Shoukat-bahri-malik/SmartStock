@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SmartStock.Models
 {
-    internal class InvoiceType
+    public class InvoiceType
     {
+        public int InvoiceTypeId { get; set; }
+        public string InvoiceTypeName { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
     }
 }
