@@ -11,7 +11,7 @@ namespace SmartStock.Models
     {
         public int CustomerTypeId { get; set; }
         [Required]
-        public string CustomerTypeName { get; set; }
-        public string Description { get; set; }
+        public string CustomerTypeName { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
     }
 }

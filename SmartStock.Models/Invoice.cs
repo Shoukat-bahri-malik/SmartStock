@@ -11,7 +11,7 @@ namespace SmartStock.Models
     {
         public int InvoiceId { get; set; }
         [Display(Name ="Invoice Number")]
-        public string InvoiceName { get; set;}
+        public string InvoiceName { get; set;} = string.Empty;
         [Display(Name = "Shipment")]
         public int ShipmentId { get; set; }
         [Display(Name = "Invoice Date")]

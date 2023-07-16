@@ -9,8 +9,8 @@ namespace SmartStock.Models
     public class Item: BaseEntity
     {
        
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
         public int AvailbleQuantity { get; set; }
         public int MyProperty { get; set; }
 

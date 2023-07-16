@@ -11,13 +11,13 @@ namespace SmartStock.Models
     {
         public int BillId { get; set; }
         [Display(Name ="Bill / Invoice Number")]
-        public string BillName { get; set; }
+        public string BillName { get; set; } = string.Empty;
         [Display(Name = "GRN")]
         public int GoodsReceivedNoteId { get; set; }
         [Display(Name = "Vendor Delivery Order")]
-        public string VendorDoNumber { get; set; }
+        public string VendorDoNumber { get; set; } = string.Empty;
         [Display(Name = "Vendor Bill / Invoice")]
-        public string VendorInvoiceNumber { get; set; }
+        public string VendorInvoiceNumber { get; set; } = string.Empty;
         [Display(Name = "Bill Date")]
         public DateTimeOffset BillDate { get; set; }
         [Display(Name = "Bill Due Date")]

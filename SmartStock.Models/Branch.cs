@@ -10,16 +10,16 @@ namespace SmartStock.Models
     public class Branch
     {
         public int BranchId { get; set; }
-        public string BranchName { get; set; }
-        public string Description { get; set; }
+        public string BranchName { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
         [Display(Name ="Currency")]
         public int CurrencyId { get; set; }
-        public string Address { get; set; }
-        public string City { get; set; }
-        public string State { get; set; }
-        public string ZipCode { get; set; }
+        public string Address { get; set; } = string.Empty;
+        public string City { get; set; } = string.Empty;
+        public string State { get; set; } = string.Empty;
+        public string ZipCode { get; set; } = string.Empty;
         [Display(Name = "Contact Person")]
-        public string Phone { get; set; }
+        public string Phone { get; set; } = string.Empty;
 
     }
 }

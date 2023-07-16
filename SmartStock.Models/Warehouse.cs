@@ -11,8 +11,8 @@ namespace SmartStock.Models
     {
         public int WarehouseId { get; set; }
         [Required]
-        public string WarehouseName { get; set; }
-        public string Description { get; set; }
+        public string WarehouseName { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
         [Display(Name ="Branch")]
         public int BranchId { get; set; }
 

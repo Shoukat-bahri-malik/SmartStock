@@ -9,9 +9,9 @@ namespace SmartStock.Models
 {
     public class AppUser:IdentityUser
     {
-        public string Name { get; set; }
-        public string Address { get; set; }
-        public string City { get; set; }
-        public string PinCode { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Address { get; set; } = string.Empty;
+        public string City { get; set; } = string.Empty;
+        public string PinCode { get; set; } = string.Empty;
     }
 }

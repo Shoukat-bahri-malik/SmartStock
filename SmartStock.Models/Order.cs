@@ -15,10 +15,10 @@ namespace SmartStock.Models
         public decimal ItemDiscount { get; set; }
         public decimal Tax { get; set; }
         public decimal Total { get; set; }
-        public string PromoCode { get; set; }
+        public string PromoCode { get; set; } = string.Empty;
         public decimal Discount { get; set; }
         public decimal GrandTotal { get; set; }
-        public string Description { get; set; }
+        public string Description { get; set; } = string.Empty;
     }
 }
 
