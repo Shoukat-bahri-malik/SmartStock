@@ -8,6 +8,8 @@ namespace SmartStock.Models
 {
     public class PaymentType
     {
-
+        public int PayemntTypeId { get; set; }
+        public string PaymentTypeName { get; set; }
+        public string Description { get; set; }
     }
 }

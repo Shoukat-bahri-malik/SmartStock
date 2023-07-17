@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 
 namespace SmartStock.Models
 {
-    public class InvoiceType
+    public class PurchaseType
     {
-        public int InvoiceTypeId { get; set; }
+        public int PurchaseTypeId { get; set; }
         [Required]
-        public string InvoiceTypeName { get; set; } = string.Empty;
-        public string Description { get; set; } = string.Empty;
-
+        public string PurchaseTypeName { get; set; }=string.Empty;
+        public string Description { get; set; }
     }
 }
