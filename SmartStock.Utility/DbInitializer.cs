@@ -1,6 +1,6 @@
 ﻿namespace SmartStock.Utility
 {
-    public class Class1
+    public class DbInitializer
     {
 
     }
