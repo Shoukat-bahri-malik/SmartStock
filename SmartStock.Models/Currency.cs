@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SmartStock.Models
 {
-    internal class Currency
+    public class Currency
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Code { get; set; }
+        public string Description { get; set; }
     }
 }

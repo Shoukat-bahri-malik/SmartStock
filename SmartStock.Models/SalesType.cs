@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SmartStock.Models
 {
-    internal class SalesType
+    public class SalesType
     {
     }
 }
